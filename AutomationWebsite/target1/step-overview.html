@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script type="text/javascript" src="js/highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Html Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Horizon</td>
+                          <td>1</td>
+                        <td>22 May 2018, 12:39</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">CommonStepDefinition.checkAPageLoadedWithViewHavingText(String)</td>
+                <td>6</td>
+                <td class="duration" data-value="19103490907">19s 103 ms</td>
+                <td class="duration" data-value="3183915151">3s 183 ms</td>
+                <td class="failed">66.67%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.checkAPageLoadedWithViewTextEqualsTo(String)</td>
+                <td>584</td>
+                <td class="duration" data-value="499836876563">8m 19s 836 ms</td>
+                <td class="duration" data-value="855885062">855 ms</td>
+                <td class="failed">11.13%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.checkListItemsWithTextAreDisplayedInThePage(String)</td>
+                <td>168</td>
+                <td class="duration" data-value="203424569320">3m 23s 424 ms</td>
+                <td class="duration" data-value="1210860531">1s 210 ms</td>
+                <td class="failed">30.95%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.check_a_page_load(String,String)</td>
+                <td>78</td>
+                <td class="duration" data-value="217863320041">3m 37s 863 ms</td>
+                <td class="duration" data-value="2793119487">2s 793 ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.press_back_arrow()</td>
+                <td>750</td>
+                <td class="duration" data-value="99172116750">1m 39s 172 ms</td>
+                <td class="duration" data-value="132229489">132 ms</td>
+                <td class="failed">11.07%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_Launches_the_Application()</td>
+                <td>1</td>
+                <td class="duration" data-value="20205986247">20s 205 ms</td>
+                <td class="duration" data-value="20205986247">20s 205 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_Switch_to_Native_View()</td>
+                <td>3</td>
+                <td class="duration" data-value="256125836">256 ms</td>
+                <td class="duration" data-value="85375278">085 ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_Switch_to_Web_View()</td>
+                <td>3</td>
+                <td class="duration" data-value="9059934683">9s 059 ms</td>
+                <td class="duration" data-value="3019978227">3s 019 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_navigates_back_to_page_top()</td>
+                <td>8</td>
+                <td class="duration" data-value="1226911984">1s 226 ms</td>
+                <td class="duration" data-value="153363998">153 ms</td>
+                <td class="failed">87.50%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_navigates_home_page_top()</td>
+                <td>12</td>
+                <td class="duration" data-value="40900082346">40s 900 ms</td>
+                <td class="duration" data-value="3408340195">3s 408 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_should_be_able_to_click_text_element_in_the_page(String)</td>
+                <td>42</td>
+                <td class="duration" data-value="3937052609">3s 937 ms</td>
+                <td class="duration" data-value="93739347">093 ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_should_be_able_to_navigate_to_via_card_navigation(String)</td>
+                <td>867</td>
+                <td class="duration" data-value="26385445081296">7h 19m 45s 445 ms</td>
+                <td class="duration" data-value="30433039309">30s 433 ms</td>
+                <td class="failed">15.22%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_should_be_able_to_view_something_viewtext_element_in_the_page(String)</td>
+                <td>624</td>
+                <td class="duration" data-value="60085694929">1m 085 ms</td>
+                <td class="duration" data-value="96291177">096 ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">CommonStepDefinition.user_should_be_able_to_view_text_element_in_the_page(String)</td>
+                <td>42</td>
+                <td class="duration" data-value="9561449022">9s 561 ms</td>
+                <td class="duration" data-value="227653548">227 ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">CompassPageStepDefinition.user_should_be_able_to_view_pdf_containing_text(String)</td>
+                <td>174</td>
+                <td class="duration" data-value="180478389166">3m 478 ms</td>
+                <td class="duration" data-value="1037232121">1s 037 ms</td>
+                <td class="failed">11.49%</td>
+              </tr>
+                          <tr>
+                <td class="location">DetailpageStepDefinition.user_waits_for_ten_seconds()</td>
+                <td>12</td>
+                <td class="duration" data-value="60021352868">1m 021 ms</td>
+                <td class="duration" data-value="5001779405">5s 001 ms</td>
+                <td class="failed">50.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HamburgerMenuStepDefinition.click_home_hamburger_item()</td>
+                <td>1005</td>
+                <td class="duration" data-value="113379042644">1m 53s 379 ms</td>
+                <td class="duration" data-value="112814967">112 ms</td>
+                <td class="failed">16.52%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_able_to_click_Compass_Hotlinks()</td>
+                <td>6</td>
+                <td class="duration" data-value="140543406277">2m 20s 543 ms</td>
+                <td class="duration" data-value="23423901046">23s 423 ms</td>
+                <td class="failed">33.33%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_is_able_to_click_the_something_Tile_for_Mobile(String)</td>
+                <td>8</td>
+                <td class="duration" data-value="3135734883">3s 135 ms</td>
+                <td class="duration" data-value="391966860">391 ms</td>
+                <td class="failed">25.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_is_able_to_see_the_something_Tile_for_Mobile(String)</td>
+                <td>8</td>
+                <td class="duration" data-value="37837364330">37s 837 ms</td>
+                <td class="duration" data-value="4729670541">4s 729 ms</td>
+                <td class="failed">25.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_should_be_able_to_view_the_Retail_Sales_Title()</td>
+                <td>8</td>
+                <td class="duration" data-value="3620542634">3s 620 ms</td>
+                <td class="duration" data-value="452567829">452 ms</td>
+                <td class="failed">87.50%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_should_clicks_on_link(String)</td>
+                <td>128</td>
+                <td class="duration" data-value="40697172849">40s 697 ms</td>
+                <td class="duration" data-value="317946662">317 ms</td>
+                <td class="failed">34.38%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_should_clicks_on_link_icon(String)</td>
+                <td>6</td>
+                <td class="duration" data-value="4109282552">4s 109 ms</td>
+                <td class="duration" data-value="684880425">684 ms</td>
+                <td class="failed">66.67%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_should_view_on_link(String)</td>
+                <td>134</td>
+                <td class="duration" data-value="1437260027568">23m 57s 260 ms</td>
+                <td class="duration" data-value="10725821101">10s 725 ms</td>
+                <td class="failed">35.82%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_should_view_on_link_in_webpage(String)</td>
+                <td>415</td>
+                <td class="duration" data-value="117445832298">1m 57s 445 ms</td>
+                <td class="duration" data-value="283002005">283 ms</td>
+                <td class="failed">34.70%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_swipe_right_to_RPS_Tile_in_Mobile()</td>
+                <td>8</td>
+                <td class="duration" data-value="2078869867">2s 078 ms</td>
+                <td class="duration" data-value="259858733">259 ms</td>
+                <td class="failed">87.50%</td>
+              </tr>
+                          <tr>
+                <td class="location">HomeScreenStepDefinition.user_tap_on_vertical_dots()</td>
+                <td>1005</td>
+                <td class="duration" data-value="225482780195">3m 45s 482 ms</td>
+                <td class="duration" data-value="224360975">224 ms</td>
+                <td class="failed">16.52%</td>
+              </tr>
+                          <tr>
+                <td class="location">MyStoreLoginsStepDefinitions.user_click_on_LOGIN()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000 ms</td>
+                <td class="duration" data-value="0">000 ms</td>
+                <td class="skipped">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MyStoreLoginsStepDefinitions.user_enters_the_password_in_the_field(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000 ms</td>
+                <td class="duration" data-value="0">000 ms</td>
+                <td class="skipped">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">MyStoreLoginsStepDefinitions.user_enters_the_username_in_the_field(String)</td>
+                <td>1</td>
+                <td class="duration" data-value="34552318114">34s 552 ms</td>
+                <td class="duration" data-value="34552318114">34s 552 ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SplashScreenStepDefinition.Scenario_started(Scenario)</td>
+                <td>1014</td>
+                <td class="duration" data-value="9883157305205">2h 44m 43s 157 ms</td>
+                <td class="duration" data-value="9746703456">9s 746 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SplashScreenStepDefinition.embedScreenshotOnFail(Scenario)</td>
+                <td>1014</td>
+                <td class="duration" data-value="54886184963">54s 886 ms</td>
+                <td class="duration" data-value="54128387">054 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot>
+            <tr>
+              <td>32</td>
+              <td>8136</td>
+              <td class="duration">11h 5m 8s 764 ms</td>
+              <td class="duration">4s 905 ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
