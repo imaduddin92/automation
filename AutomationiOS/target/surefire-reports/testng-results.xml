@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTest" duration-ms="0" started-at="2022-08-14T22:14:09Z" finished-at="2022-08-14T22:14:09Z">
+    <groups>
+    </groups>
+  </suite> <!-- AllTest -->
+  <suite name="HorizonSuite" duration-ms="141198" started-at="2022-08-14T22:11:47Z" finished-at="2022-08-14T22:14:08Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.photon.runner.ExtentReportRunner@31ef45e3]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Photon_Application" duration-ms="141198" started-at="2022-08-14T22:11:47Z" finished-at="2022-08-14T22:14:08Z">
+      <class name="com.photon.runner.ExtentReportRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.photon.runner.ExtentReportRunner@31ef45e3]" name="setUpClass" is-config="true" duration-ms="290" started-at="2022-08-15T05:11:47Z" finished-at="2022-08-15T05:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.photon.runner.ExtentReportRunner@31ef45e3]" name="setup" is-config="true" duration-ms="455" started-at="2022-08-15T05:11:47Z" finished-at="2022-08-15T05:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.photon.runner.ExtentReportRunner@31ef45e3]" name="feature" duration-ms="140324" started-at="2022-08-15T05:11:48Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-08-15T05:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AAT-1528 Homescreen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.photon.runner.ExtentReportRunner@31ef45e3]" name="tearDownClass" is-config="true" duration-ms="49" started-at="2022-08-15T05:14:08Z" finished-at="2022-08-15T05:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.photon.runner.ExtentReportRunner -->
+    </test> <!-- Photon_Application -->
+  </suite> <!-- HorizonSuite -->
+</testng-results>

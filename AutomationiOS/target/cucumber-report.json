@@ -1,0 +1,362 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Content Cards to have an “action” field which can deep-link to other parts of the app or to a “detailPage”",
+        "description": "",
+        "id": "aat-1528-homescreen;content-cards-to-have-an-“action”-field-which-can-deep-link-to-other-parts-of-the-app-or-to-a-“detailpage”",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19587465666,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Launches the Application",
+            "match": {
+              "location": "WelcomeScreenStepDef.user_Launches_the_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1294643009,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on welcome screen",
+            "match": {
+              "location": "WelcomeScreenStepDef.user_is_on_welcome_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3777616702,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User tap on Sign in button",
+            "match": {
+              "location": "WelcomeScreenStepDef.user_tap_on_Sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4419182763,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User see enter email screen",
+            "match": {
+              "location": "EnterEmailScreenStepDef.user_see_enter_email_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13045719748,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter Email Address in email textfield",
+            "match": {
+              "location": "EnterEmailScreenStepDef.user_enter_email_address_in_email_textfield()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8332228089,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User tap on Continue button",
+            "match": {
+              "location": "EnterEmailScreenStepDef.user_tap_on_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1925405457,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see enter password screen",
+            "match": {
+              "location": "EnterPasswordScreenStepDef.user_see_enter_password_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9081274902,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter Password in password textfield",
+            "match": {
+              "location": "EnterPasswordScreenStepDef.user_enter_password_in_password_textfield()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16661951755,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User tap on Continue button",
+            "match": {
+              "location": "EnterEmailScreenStepDef.user_tap_on_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13579425320,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User tap on Allow all button",
+            "match": {
+              "location": "CreateAccountScreenStepDef.user_tap_on_Allow_all_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3636308104,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User tap on Maybe later button",
+            "match": {
+              "location": "CreateAccountScreenStepDef.user_tap_on_Maybe_later_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1960253080,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see home screen",
+            "match": {
+              "location": "HomeScreenStepDef.user_see_home_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1591136447,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User tap on pret coffeesubs image",
+            "match": {
+              "location": "HomeScreenStepDef.user_tap_on_pret_coffeesubs_image()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1702410746,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User see coffeesubs modal",
+            "match": {
+              "location": "HomeScreenStepDef.user_see_coffeesubs_modal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2619977316,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User tap close button",
+            "match": {
+              "location": "HomeScreenStepDef.user_tap_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6221878754,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User tap on pret pick up",
+            "match": {
+              "location": "HomeScreenStepDef.user_tap_on_pret_pick_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1983758690,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User see pret pick up modal",
+            "match": {
+              "location": "HomeScreenStepDef.user_see_pret_pick_up_modal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2200912405,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User tap close button",
+            "match": {
+              "location": "HomeScreenStepDef.user_tap_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4423705873,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User tap on pret foundation",
+            "match": {
+              "location": "HomeScreenStepDef.user_tap_on_pret_foundation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2300878910,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User see pret foundation screen",
+            "match": {
+              "location": "HomeScreenStepDef.user_see_pret_foundation_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2307575723,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User tap close button",
+            "match": {
+              "location": "HomeScreenStepDef.user_tap_close_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1556352005,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User tap on account button",
+            "match": {
+              "location": "HomeScreenStepDef.user_tap_on_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1412827826,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User see account screen",
+            "match": {
+              "location": "AccountScreenStepDef.user_see_account_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1412775485,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User tap on personal details button",
+            "match": {
+              "location": "AccountScreenStepDef.user_tap_on_personal_details_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9379566867,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User tap on logout button",
+            "match": {
+              "location": "AccountScreenStepDef.user_tap_on_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2438243080,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on welcome screen",
+            "match": {
+              "location": "WelcomeScreenStepDef.user_is_on_welcome_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1090076482,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User quit an application",
+            "match": {
+              "location": "WelcomeScreenStepDef.user_quit_an_appication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@aat1528"
+          }
+        ]
+      }
+    ],
+    "name": "AAT-1528 Homescreen",
+    "description": "",
+    "id": "aat-1528-homescreen",
+    "keyword": "Feature",
+    "uri": "Homescreen.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@aat1528-test"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script type="text/javascript" src="js/highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Html Reports  - Tag: @Hotlinks</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Horizon</td>
+                          <td>1</td>
+                        <td>22 May 2018, 12:39</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Tag Report</h2>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        <thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="7">Steps</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th>Total</th>
+    <th>Passed</th>
+    <th>Failed</th>
+    <th>Total</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="missing">Missing</th>
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+        <tbody>
+        <tr>
+          <td class="tagname">@Hotlinks</td>
+          <td>6</td>
+          <td>4</td>
+          <td>2</td>
+          <td>42</td>
+          <td>30</td>
+          <td     class="failed"    >2</td>
+          <td    class="skipped"   >10</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="duration" data-value="91097267626">1m 31s 097 ms</td>
+          <td class="failed">Failed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+        
+  <div class="element">
+          <div class="indention">
+        <a href="cache-cache-C-feature.html">View Feature</a> <i>Smoke Suite for tablet</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="SmokeSuiteScripts.html">@SmokeSuiteScripts</a>
+       <a href="Hotlinks.html">@Hotlinks</a>
+       <a href="SMLogin.html">@SMLogin</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element--1990050669">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Validating Homepage COMPASS Hot links in Mobile device for &quot;SM&quot; Role</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--1990050669" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-1502971166">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-1502971166" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">SplashScreenStepDefinition.Scenario_started(Scenario)</span>
+                        
+  <span class="lead-duration duration">3s 201 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35419258">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-35419258" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user navigates home page top</span>
+  
+  <span class="lead-duration duration">021 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to view "COMPASS" link</span>
+  
+  <span class="lead-duration duration">205 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to click "COMPASS" link icon</span>
+  
+  <span class="lead-duration duration">810 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user waits for ten seconds</span>
+  
+  <span class="lead-duration duration">10s 005 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">check a page loaded with view having text " DAILY PLANNER "</span>
+  
+  <span class="lead-duration duration">9s 012 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">tab more option or hamburger menu</span>
+  
+  <span class="lead-duration duration">807 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user able to click home item</span>
+  
+  <span class="lead-duration duration">802 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-23218037">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-23218037" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">SplashScreenStepDefinition.embedScreenshotOnFail(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="cache-cache-C-feature.html">View Feature</a> <i>Smoke Suite for tablet</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="SmokeSuiteScripts.html">@SmokeSuiteScripts</a>
+       <a href="Hotlinks.html">@Hotlinks</a>
+       <a href="SMLogin.html">@SMLogin</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element--1990050668">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Validating Homepage Floor Planning Express Hot links in Mobile device for &quot;SM&quot; Role</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--1990050668" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-70543368">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-70543368" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">SplashScreenStepDefinition.Scenario_started(Scenario)</span>
+                        
+  <span class="lead-duration duration">4s 952 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-141388791">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-141388791" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user navigates home page top</span>
+  
+  <span class="lead-duration duration">024 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to view "Floor Planning Express" link</span>
+  
+  <span class="lead-duration duration">247 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to click "Floor Planning Express" link icon</span>
+  
+  <span class="lead-duration duration">961 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user waits for ten seconds</span>
+  
+  <span class="lead-duration duration">10s 003 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">check a page loaded with view having text "Last Updated By :"</span>
+  
+  <span class="lead-duration duration">1s 301 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">tab more option or hamburger menu</span>
+  
+  <span class="lead-duration duration">1s 429 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user able to click home item</span>
+  
+  <span class="lead-duration duration">403 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-2083951216">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-2083951216" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">SplashScreenStepDefinition.embedScreenshotOnFail(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="cache-cache-C-feature.html">View Feature</a> <i>Smoke Suite for tablet</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="SmokeSuiteScripts.html">@SmokeSuiteScripts</a>
+       <a href="Hotlinks.html">@Hotlinks</a>
+       <a href="SMLogin.html">@SMLogin</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element--1990050667">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Validating Homepage StoreCare+ Hot links in Mobile device for &quot;SM&quot; Role</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--1990050667" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-1714317354">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-1714317354" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">SplashScreenStepDefinition.Scenario_started(Scenario)</span>
+                        
+  <span class="lead-duration duration">4s 949 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-778234583">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-778234583" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user navigates home page top</span>
+  
+  <span class="lead-duration duration">030 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to view "StoreCare+" link</span>
+  
+  <span class="lead-duration duration">242 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to click "StoreCare+" link icon</span>
+  
+  <span class="lead-duration duration">889 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user waits for ten seconds</span>
+  
+  <span class="lead-duration duration">10s 001 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">check a page loaded with view having text "VERISAE"</span>
+  
+  <span class="lead-duration duration">5s 482 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">tab more option or hamburger menu</span>
+  
+  <span class="lead-duration duration">1s 755 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user able to click home item</span>
+  
+  <span class="lead-duration duration">466 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-848343462">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-848343462" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">SplashScreenStepDefinition.embedScreenshotOnFail(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="cache-cache-C-feature.html">View Feature</a> <i>Smoke Suite for tablet</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="SmokeSuiteScripts.html">@SmokeSuiteScripts</a>
+       <a href="Hotlinks.html">@Hotlinks</a>
+       <a href="SMLogin.html">@SMLogin</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element--1990050666">
+      
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Validating Homepage Inventory On Hand Hot links in Mobile device for &quot;SM&quot; Role</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--1990050666" class="collapse collapsable-details  in ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-89144801">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-89144801" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">SplashScreenStepDefinition.Scenario_started(Scenario)</span>
+                        
+  <span class="lead-duration duration">4s 968 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-733693146">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-733693146" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user navigates home page top</span>
+  
+  <span class="lead-duration duration">020 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to view "Inventory On Hand" link</span>
+  
+  <span class="lead-duration duration">9s 647 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg--1543424847">
+          <a>Error message</a>
+      </div>
+      <div id="msg--1543424847" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'CHMM114178.local', ip: 'fe80:0:0:0:108c:d38a:ed1a:f214%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.wag.horizon.android.mys..., appPackage: com.wag.horizon.android.mys..., autoGrantPermissions: true, autoWebView: true, automationName: Appium, browserName: Android, chromeAndroidProcess: com.wag.horizon.android.mys..., clearSystemFiles: true, databaseEnabled: false, debugLogSpacing: false, desired: {appActivity: com.wag.horizon.android.mys..., appPackage: com.wag.horizon.android.mys..., autoGrantPermissions: true, autoWebView: true, automationName: Appium, browserName: Android, chromeAndroidProcess: com.wag.horizon.android.mys..., clearSystemFiles: true, debugLogSpacing: false, deviceName: KQ62301018, disableAndroidWatchers: true, enablePerformanceLogging: true, ignoreUnimportantViews: true, javascriptEnabled: true, loggingPrefs: {performance: INFO}, platformName: android, platformVersion: 5.1.1, printPageSourceOnFindFailure: false, proxy: {httpProxy: 10.100.209.119:51603, proxyType: manual, sslProxy: 10.100.209.119:51603}, recreateChromeDriverSessions: true, resetKeyboard: true, unicodeKeyboard: true}, deviceManufacturer: Zebra Technologies, deviceModel: ET5X, deviceName: KQ70301340, deviceScreenSize: 1200x1920, deviceUDID: KQ70301340, disableAndroidWatchers: true, enablePerformanceLogging: true, ignoreUnimportantViews: true, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 5.1.1, printPageSourceOnFindFailure: false, proxy: Proxy(manual, http=10.100.2..., recreateChromeDriverSessions: true, resetKeyboard: true, takesScreenshot: true, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: f1186c6e-30ef-4e78-88ca-ca2544533a95
+*** Element info: {Using=xpath, value=//android.widget.TextView[contains(normalize-space(@text),normalize-space("Inventory On Hand"))]}
+	at sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.horizon.base.CustomElementSelector.getElement(CustomElementSelector.java:108)
+	at com.horizon.base.ElementIdentification.getElementByProperty(ElementIdentification.java:25)
+	at com.horizon.base.ElementPresent.isElementPresentVerification(ElementPresent.java:37)
+	at com.horizon.base.ElementPresent.isElementPresentVerification(ElementPresent.java:25)
+	at com.horizon.base.AssertValidation.assertElementPresentVerification(AssertValidation.java:26)
+	at com.horizon.stepDefinition.HomeScreenStepDefinition.user_should_view_on_link(HomeScreenStepDefinition.java:193)
+	at ✽.user should able to view "Inventory On Hand" link(cache/cache/C.feature:141)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to click "Inventory On Hand" link icon</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user waits for ten seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">check a page loaded with view having text "Inventory On Hand Report"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">tab more option or hamburger menu</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user able to click home item</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-884868698">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-884868698" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">SplashScreenStepDefinition.embedScreenshotOnFail(Scenario)</span>
+                        
+  <span class="lead-duration duration">089 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="cache-cache-C-feature.html">View Feature</a> <i>Smoke Suite for tablet</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="SmokeSuiteScripts.html">@SmokeSuiteScripts</a>
+       <a href="Hotlinks.html">@Hotlinks</a>
+       <a href="SMLogin.html">@SMLogin</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element--1990050665">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Validating Homepage Walgreens.com Online Ordering Hot links in Mobile device for &quot;SM&quot; Role</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--1990050665" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-1434151479">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-1434151479" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">SplashScreenStepDefinition.Scenario_started(Scenario)</span>
+                        
+  <span class="lead-duration duration">4s 365 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-1576416089">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1576416089" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user navigates home page top</span>
+  
+  <span class="lead-duration duration">029 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to view "Walgreens.com Online Ordering" link</span>
+  
+  <span class="lead-duration duration">282 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to click "Walgreens.com Online Ordering" link icon</span>
+  
+  <span class="lead-duration duration">1s 447 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user waits for ten seconds</span>
+  
+  <span class="lead-duration duration">10s 001 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">check a page loaded with view having text "Walgreens"</span>
+  
+  <span class="lead-duration duration">3s 306 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">tab more option or hamburger menu</span>
+  
+  <span class="lead-duration duration">1s 266 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user able to click home item</span>
+  
+  <span class="lead-duration duration">438 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-252339901">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-252339901" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">SplashScreenStepDefinition.embedScreenshotOnFail(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="cache-cache-C-feature.html">View Feature</a> <i>Smoke Suite for tablet</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="SmokeSuiteScripts.html">@SmokeSuiteScripts</a>
+       <a href="Hotlinks.html">@Hotlinks</a>
+       <a href="SMLogin.html">@SMLogin</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element--1990050664">
+      
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Validating Homepage Inventory On Hand Hot links in Mobile device for &quot;SM&quot; Role</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element--1990050664" class="collapse collapsable-details  in ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-487369776">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-487369776" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">SplashScreenStepDefinition.Scenario_started(Scenario)</span>
+                        
+  <span class="lead-duration duration">5s 232 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-1480569460">
+          
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1480569460" class="inner-level collapse collapsable-details  in ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user navigates home page top</span>
+  
+  <span class="lead-duration duration">023 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief failed">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to view "Inventory On Hand" link</span>
+  
+  <span class="lead-duration duration">9s 725 ms</span>
+
+  </div>
+
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg--1543424847">
+          <a>Error message</a>
+      </div>
+      <div id="msg--1543424847" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'CHMM114178.local', ip: 'fe80:0:0:0:108c:d38a:ed1a:f214%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.wag.horizon.android.mys..., appPackage: com.wag.horizon.android.mys..., autoGrantPermissions: true, autoWebView: true, automationName: Appium, browserName: Android, chromeAndroidProcess: com.wag.horizon.android.mys..., clearSystemFiles: true, databaseEnabled: false, debugLogSpacing: false, desired: {appActivity: com.wag.horizon.android.mys..., appPackage: com.wag.horizon.android.mys..., autoGrantPermissions: true, autoWebView: true, automationName: Appium, browserName: Android, chromeAndroidProcess: com.wag.horizon.android.mys..., clearSystemFiles: true, debugLogSpacing: false, deviceName: KQ62301018, disableAndroidWatchers: true, enablePerformanceLogging: true, ignoreUnimportantViews: true, javascriptEnabled: true, loggingPrefs: {performance: INFO}, platformName: android, platformVersion: 5.1.1, printPageSourceOnFindFailure: false, proxy: {httpProxy: 10.100.209.119:51603, proxyType: manual, sslProxy: 10.100.209.119:51603}, recreateChromeDriverSessions: true, resetKeyboard: true, unicodeKeyboard: true}, deviceManufacturer: Zebra Technologies, deviceModel: ET5X, deviceName: KQ70301340, deviceScreenSize: 1200x1920, deviceUDID: KQ70301340, disableAndroidWatchers: true, enablePerformanceLogging: true, ignoreUnimportantViews: true, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 5.1.1, printPageSourceOnFindFailure: false, proxy: Proxy(manual, http=10.100.2..., recreateChromeDriverSessions: true, resetKeyboard: true, takesScreenshot: true, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: f1186c6e-30ef-4e78-88ca-ca2544533a95
+*** Element info: {Using=xpath, value=//android.widget.TextView[contains(normalize-space(@text),normalize-space("Inventory On Hand"))]}
+	at sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.horizon.base.CustomElementSelector.getElement(CustomElementSelector.java:108)
+	at com.horizon.base.ElementIdentification.getElementByProperty(ElementIdentification.java:25)
+	at com.horizon.base.ElementPresent.isElementPresentVerification(ElementPresent.java:37)
+	at com.horizon.base.ElementPresent.isElementPresentVerification(ElementPresent.java:25)
+	at com.horizon.base.AssertValidation.assertElementPresentVerification(AssertValidation.java:26)
+	at com.horizon.stepDefinition.HomeScreenStepDefinition.user_should_view_on_link(HomeScreenStepDefinition.java:193)
+	at ✽.user should able to view "Inventory On Hand" link(cache/cache/C.feature:141)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user should able to click "Inventory On Hand" link icon</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user waits for ten seconds</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">check a page loaded with view having text "Inventory On Hand Report"</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">tab more option or hamburger menu</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user able to click home item</span>
+  
+  <span class="lead-duration duration">000 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-1508750581">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-1508750581" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">SplashScreenStepDefinition.embedScreenshotOnFail(Scenario)</span>
+                        
+  <span class="lead-duration duration">057 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,2003 @@
+[
+  {
+    "source": "^press back arrow$",
+    "steps": [
+      {
+        "name": "press back arrow",
+        "aggregatedDurations": {
+          "average": 1.286339124,
+          "median": 1.146560686
+        },
+        "durations": [
+          {
+            "duration": 1.632435538,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.178038099,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.133646612,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.124065743,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.155830102,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.141082464,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.136408135,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.720954226,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.146272151,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 2.088502371,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.143179858,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.146560686,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.1361805,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.137189604,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.125456845,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.131291158,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.133067164,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.136790706,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.134592064,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.127173902,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.201457974,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.184722194,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.421510399,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.588196224,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.291289225,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.290716226,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 1.172475723,
+            "location": "cache/cache/2.feature:17"
+          },
+          {
+            "duration": 0.502677162,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 3.138011813,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 2.025323873,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 2.415668367,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 1.8776718,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 1.203129054,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 2.296681122,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 0.222290698,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 1.925684238,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 1.78040212,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 0.25382909,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 0.331358769,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 0.543536005,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 0.488363368,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 1.838358262,
+            "location": "cache/cache/2.feature:251"
+          },
+          {
+            "duration": 0.510510728,
+            "location": "cache/cache/2.feature:251"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user able to click home item",
+    "steps": [
+      {
+        "name": "user able to click home item",
+        "aggregatedDurations": {
+          "average": 0.782954269,
+          "median": 0.722153232
+        },
+        "durations": [
+          {
+            "duration": 0.69373817,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.70697336,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 1.04717705,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 1.046647385,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.690108491,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.453397821,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 1.054733585,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.400121961,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.482220201,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.622708247,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.960702664,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.705558415,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.702649283,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.626852129,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.689678922,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.943098433,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.727832528,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.614833152,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.722358665,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.65989575,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.698269439,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.720001886,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 1.020594972,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.791501882,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.722153232,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.930609601,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.666806873,
+            "location": "cache/cache/2.feature:19"
+          },
+          {
+            "duration": 0.82128358,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 1.115047365,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.711497894,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.619492102,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.680435143,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.759984136,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.863792491,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.988227012,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.703693872,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.755311317,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.725940192,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 1.084589341,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 1.40114749,
+            "location": "cache/cache/2.feature:253"
+          },
+          {
+            "duration": 0.769459008,
+            "location": "cache/cache/2.feature:253"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^tab more option or hamburger menu$",
+    "steps": [
+      {
+        "name": "tab more option or hamburger menu",
+        "aggregatedDurations": {
+          "average": 1.572157669,
+          "median": 1.465544324
+        },
+        "durations": [
+          {
+            "duration": 1.508102316,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.29591361,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.394192973,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.310863226,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.465544324,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.482436261,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.306571626,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.441304447,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.440201023,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.319608056,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.481699979,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.534299185,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.296479869,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.265220802,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.290213812,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.303458388,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.269767343,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.316472965,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.544049539,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.297523787,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.497631959,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.499985723,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.736787985,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.703296477,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.378070958,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.484883034,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 1.526697733,
+            "location": "cache/cache/2.feature:18"
+          },
+          {
+            "duration": 3.507549089,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 2.729245172,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.62753189,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.515571816,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.267986505,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.349766126,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.311625823,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.793105887,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.30225961,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.315865526,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.866308561,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 1.687199719,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 2.587699508,
+            "location": "cache/cache/2.feature:252"
+          },
+          {
+            "duration": 2.205471835,
+            "location": "cache/cache/2.feature:252"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to view PDF containing text \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user should be able to view PDF containing text \"Beauty Area Expert On-Boarding\"",
+        "aggregatedDurations": {
+          "average": 1.915107058,
+          "median": 1.915107058
+        },
+        "durations": [
+          {
+            "duration": 1.915107058,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"Soap \u0026 Glory Brand History\"",
+        "aggregatedDurations": {
+          "average": 4.633297617,
+          "median": 4.633297617
+        },
+        "durations": [
+          {
+            "duration": 4.633297617,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"MATCH MADE DEVICE SOFTWARE UPDATE\"",
+        "aggregatedDurations": {
+          "average": 4.785753432,
+          "median": 4.785753432
+        },
+        "durations": [
+          {
+            "duration": 4.785753432,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"Boots Brand History\"",
+        "aggregatedDurations": {
+          "average": 1.800830736,
+          "median": 1.800830736
+        },
+        "durations": [
+          {
+            "duration": 1.800830736,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"POS Vision Maintenance (Back Office)\"",
+        "aggregatedDurations": {
+          "average": 2.248549086,
+          "median": 2.248549086
+        },
+        "durations": [
+          {
+            "duration": 2.254852168,
+            "location": "cache/cache/2.feature:250"
+          },
+          {
+            "duration": 2.242246005,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"New Hire Experience – Beauty Consultant Orientation Checklist\"",
+        "aggregatedDurations": {
+          "average": 1.521708343,
+          "median": 1.521708343
+        },
+        "durations": [
+          {
+            "duration": 1.521708343,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"Beauty Differentiation:\"",
+        "aggregatedDurations": {
+          "average": 1.510778696,
+          "median": 1.510778696
+        },
+        "durations": [
+          {
+            "duration": 1.510778696,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"Beauty Customer Care\"",
+        "aggregatedDurations": {
+          "average": 1.766540469,
+          "median": 1.766540469
+        },
+        "durations": [
+          {
+            "duration": 1.766540469,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"In-Store Observation Checklist\"",
+        "aggregatedDurations": {
+          "average": 2.150932177,
+          "median": 2.150932177
+        },
+        "durations": [
+          {
+            "duration": 2.150932177,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"On-going activities to accomplish on a regular basis\"",
+        "aggregatedDurations": {
+          "average": 2.902491187,
+          "median": 2.902491187
+        },
+        "durations": [
+          {
+            "duration": 2.902491187,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"New Hire Onboarding: Step-by-Step Guide\"",
+        "aggregatedDurations": {
+          "average": 2.0591193,
+          "median": 2.0591193
+        },
+        "durations": [
+          {
+            "duration": 2.0591193,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"Cosmetic PMs: Policy and Overview\"",
+        "aggregatedDurations": {
+          "average": 2.347871121,
+          "median": 2.347871121
+        },
+        "durations": [
+          {
+            "duration": 2.347871121,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"Expense\"",
+        "aggregatedDurations": {
+          "average": 2.025792739,
+          "median": 2.025792739
+        },
+        "durations": [
+          {
+            "duration": 2.025792739,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"Retail Operations: Beauty\"",
+        "aggregatedDurations": {
+          "average": 3.163421218,
+          "median": 3.163421218
+        },
+        "durations": [
+          {
+            "duration": 3.163421218,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to view PDF containing text \"BEAUTY CONSULTATION DESK\"",
+        "aggregatedDurations": {
+          "average": 2.659076905,
+          "median": 2.659076905
+        },
+        "durations": [
+          {
+            "duration": 2.659076905,
+            "location": "cache/cache/2.feature:250"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters the password in the \"([^\"]*)\" field$",
+    "steps": [
+      {
+        "name": "user enters the password in the \"Welcome1a\" field",
+        "aggregatedDurations": {
+          "average": 7.022570589,
+          "median": 7.022570589
+        },
+        "durations": [
+          {
+            "duration": 7.022570589,
+            "location": "cache/cache/0.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^check a page loaded with view text equals to \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "check a page loaded with view text equals to \"PTCB\"",
+        "aggregatedDurations": {
+          "average": 7.211504197,
+          "median": 7.211504197
+        },
+        "durations": [
+          {
+            "duration": 7.211504197,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Pharmacy Technician Training\"",
+        "aggregatedDurations": {
+          "average": 4.454561157,
+          "median": 4.454561157
+        },
+        "durations": [
+          {
+            "duration": 4.454561157,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Welcome to LEAP (Lead, Engage, Advance, Perform)–\"",
+        "aggregatedDurations": {
+          "average": 2.642652285,
+          "median": 2.642652285
+        },
+        "durations": [
+          {
+            "duration": 2.642652285,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"LEAP Materials for Leaders\"",
+        "aggregatedDurations": {
+          "average": 2.693345766,
+          "median": 2.693345766
+        },
+        "durations": [
+          {
+            "duration": 2.693345766,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Location Inquiry\"",
+        "aggregatedDurations": {
+          "average": 6.442844507,
+          "median": 6.442844507
+        },
+        "durations": [
+          {
+            "duration": 6.442844507,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Pharmacy Operations: Filling Prescriptions\"",
+        "aggregatedDurations": {
+          "average": 4.500426316,
+          "median": 4.500426316
+        },
+        "durations": [
+          {
+            "duration": 4.500426316,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Product Tampering and Contamination: Suspected or Confirmed\"",
+        "aggregatedDurations": {
+          "average": 3.953004994,
+          "median": 3.953004994
+        },
+        "durations": [
+          {
+            "duration": 3.953004994,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Next Generation POS\"",
+        "aggregatedDurations": {
+          "average": 3.881410676,
+          "median": 3.881410676
+        },
+        "durations": [
+          {
+            "duration": 3.881410676,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Welcome the Pharmacy \u0026 Retail Implementation Webpage\"",
+        "aggregatedDurations": {
+          "average": 5.258506889,
+          "median": 5.258506889
+        },
+        "durations": [
+          {
+            "duration": 5.258506889,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Walgreens University\"",
+        "aggregatedDurations": {
+          "average": 3.644898821,
+          "median": 3.644898821
+        },
+        "durations": [
+          {
+            "duration": 3.644898821,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Acquisition Integration Home Page\"",
+        "aggregatedDurations": {
+          "average": 3.262908294,
+          "median": 3.262908294
+        },
+        "durations": [
+          {
+            "duration": 3.262908294,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Director of Pharmacy and Retail Operations\"",
+        "aggregatedDurations": {
+          "average": 1.144531534,
+          "median": 1.144531534
+        },
+        "durations": [
+          {
+            "duration": 1.144531534,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Beauty Area Experts\"",
+        "aggregatedDurations": {
+          "average": 0.916522638,
+          "median": 0.916522638
+        },
+        "durations": [
+          {
+            "duration": 0.916522638,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Beauty Consultant\"",
+        "aggregatedDurations": {
+          "average": 0.941375373,
+          "median": 0.941375373
+        },
+        "durations": [
+          {
+            "duration": 0.898018994,
+            "location": "cache/cache/2.feature:16"
+          },
+          {
+            "duration": 0.984731752,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Store Manager\"",
+        "aggregatedDurations": {
+          "average": 0.955753928,
+          "median": 0.955753928
+        },
+        "durations": [
+          {
+            "duration": 0.955753928,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Store Manager/Beauty Consultant\"",
+        "aggregatedDurations": {
+          "average": 0.924489542,
+          "median": 0.924489542
+        },
+        "durations": [
+          {
+            "duration": 0.924489542,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Testers\"",
+        "aggregatedDurations": {
+          "average": 0.98232141,
+          "median": 0.98232141
+        },
+        "durations": [
+          {
+            "duration": 0.98232141,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Beauty Department Hygiene\"",
+        "aggregatedDurations": {
+          "average": 1.194939665,
+          "median": 1.194939665
+        },
+        "durations": [
+          {
+            "duration": 1.194939665,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Incentives\"",
+        "aggregatedDurations": {
+          "average": 1.13490672,
+          "median": 1.13490672
+        },
+        "durations": [
+          {
+            "duration": 1.13490672,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Travel Planning and Expense Site\"",
+        "aggregatedDurations": {
+          "average": 1.138560058,
+          "median": 1.138560058
+        },
+        "durations": [
+          {
+            "duration": 1.138560058,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Safety\"",
+        "aggregatedDurations": {
+          "average": 1.221806181,
+          "median": 1.221806181
+        },
+        "durations": [
+          {
+            "duration": 1.221806181,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Welcome to the Travel Planning and Expense Center\"",
+        "aggregatedDurations": {
+          "average": 8.742573404,
+          "median": 8.742573404
+        },
+        "durations": [
+          {
+            "duration": 8.742573404,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Beauty Differentiation Training\"",
+        "aggregatedDurations": {
+          "average": 8.123139819,
+          "median": 8.123139819
+        },
+        "durations": [
+          {
+            "duration": 8.123139819,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"ID Administration System Request Forms\"",
+        "aggregatedDurations": {
+          "average": 8.252787809,
+          "median": 8.252787809
+        },
+        "durations": [
+          {
+            "duration": 8.252787809,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Login\"",
+        "aggregatedDurations": {
+          "average": 12.787031345,
+          "median": 12.787031345
+        },
+        "durations": [
+          {
+            "duration": 12.787031345,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      },
+      {
+        "name": "check a page loaded with view text equals to \"Labor:\"",
+        "aggregatedDurations": {
+          "average": 0.404283126,
+          "median": 0.404283126
+        },
+        "durations": [
+          {
+            "duration": 0.404283126,
+            "location": "cache/cache/2.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to navigate to \"([^\"]*)\" via card navigation$",
+    "steps": [
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eProfessional Development-\u003ePTCB Certification Information\" via card navigation",
+        "aggregatedDurations": {
+          "average": 12.81427751,
+          "median": 12.81427751
+        },
+        "durations": [
+          {
+            "duration": 12.81427751,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eProfessional Development-\u003ePharmacy Technician Training\" via card navigation",
+        "aggregatedDurations": {
+          "average": 11.904597456,
+          "median": 11.904597456
+        },
+        "durations": [
+          {
+            "duration": 11.904597456,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eProfessional Development-\u003eLEAP Program General Information\" via card navigation",
+        "aggregatedDurations": {
+          "average": 11.475245408,
+          "median": 11.475245408
+        },
+        "durations": [
+          {
+            "duration": 11.475245408,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eProfessional Development-\u003eLEAP Home Page for Leaders and Facilitators\" via card navigation",
+        "aggregatedDurations": {
+          "average": 11.256465528,
+          "median": 11.256465528
+        },
+        "durations": [
+          {
+            "duration": 11.256465528,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eRefresh Repair and Maintenance Program\" via card navigation",
+        "aggregatedDurations": {
+          "average": 11.653564489,
+          "median": 11.653564489
+        },
+        "durations": [
+          {
+            "duration": 11.653564489,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003ePharmacy SOPs\" via card navigation",
+        "aggregatedDurations": {
+          "average": 10.172872557,
+          "median": 10.172872557
+        },
+        "durations": [
+          {
+            "duration": 10.172872557,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eSafety \u0026 Security-\u003eProduct Tampering/Contamination Policy\" via card navigation",
+        "aggregatedDurations": {
+          "average": 11.355246512,
+          "median": 11.355246512
+        },
+        "durations": [
+          {
+            "duration": 11.355246512,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eNext Gen Registers and Back Office\" via card navigation",
+        "aggregatedDurations": {
+          "average": 10.089435415,
+          "median": 10.089435415
+        },
+        "durations": [
+          {
+            "duration": 10.089435415,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003ePharmacy \u0026 Retail Implementation\" via card navigation",
+        "aggregatedDurations": {
+          "average": 10.125236486,
+          "median": 10.125236486
+        },
+        "durations": [
+          {
+            "duration": 10.125236486,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eProfessional Development-\u003eWalgreens University\" via card navigation",
+        "aggregatedDurations": {
+          "average": 11.299845285,
+          "median": 11.299845285
+        },
+        "durations": [
+          {
+            "duration": 11.299845285,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Store Operations-\u003ePharmacy-\u003eAcquisition Integration Home\" via card navigation",
+        "aggregatedDurations": {
+          "average": 11.31991571,
+          "median": 11.31991571
+        },
+        "durations": [
+          {
+            "duration": 11.31991571,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBAE Onboarding\" via card navigation",
+        "aggregatedDurations": {
+          "average": 12.483646193,
+          "median": 12.483646193
+        },
+        "durations": [
+          {
+            "duration": 12.483646193,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eTraining Materials\" via card navigation",
+        "aggregatedDurations": {
+          "average": 12.267193667,
+          "median": 12.266782607
+        },
+        "durations": [
+          {
+            "duration": 12.266782607,
+            "location": "cache/cache/2.feature:15"
+          },
+          {
+            "duration": 12.409431543,
+            "location": "cache/cache/2.feature:15"
+          },
+          {
+            "duration": 12.125366853,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding\" via card navigation",
+        "aggregatedDurations": {
+          "average": 12.526053841,
+          "median": 12.526053841
+        },
+        "durations": [
+          {
+            "duration": 12.526053841,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies\" via card navigation",
+        "aggregatedDurations": {
+          "average": 12.264341631,
+          "median": 12.323449694
+        },
+        "durations": [
+          {
+            "duration": 12.149837297,
+            "location": "cache/cache/2.feature:15"
+          },
+          {
+            "duration": 12.129232444,
+            "location": "cache/cache/2.feature:15"
+          },
+          {
+            "duration": 12.323449694,
+            "location": "cache/cache/2.feature:15"
+          },
+          {
+            "duration": 12.355752277,
+            "location": "cache/cache/2.feature:15"
+          },
+          {
+            "duration": 12.363436447,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBeauty Standards\" via card navigation",
+        "aggregatedDurations": {
+          "average": 12.579903347,
+          "median": 12.579903347
+        },
+        "durations": [
+          {
+            "duration": 12.579903347,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eTraining Materials-\u003eTravel Planning and Expense Site\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.18839582,
+          "median": 13.18839582
+        },
+        "durations": [
+          {
+            "duration": 13.18839582,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eTraining Materials-\u003eBeauty Differentiation Training on LMTP\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.670119271,
+          "median": 13.670119271
+        },
+        "durations": [
+          {
+            "duration": 13.670119271,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBAE Onboarding-\u003eRequest User IDs\" via card navigation",
+        "aggregatedDurations": {
+          "average": 14.286167195,
+          "median": 14.286167195
+        },
+        "durations": [
+          {
+            "duration": 14.286167195,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBAE Onboarding-\u003eUpdate an Existing Phone/Voicemail\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.745353224,
+          "median": 13.745353224
+        },
+        "durations": [
+          {
+            "duration": 13.745353224,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eLabor:\" via card navigation",
+        "aggregatedDurations": {
+          "average": 16.857756379,
+          "median": 16.857756379
+        },
+        "durations": [
+          {
+            "duration": 16.857756379,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eBeauty Personal Care Incentives (coming soon)\" via card navigation",
+        "aggregatedDurations": {
+          "average": 15.948750776,
+          "median": 15.948750776
+        },
+        "durations": [
+          {
+            "duration": 15.948750776,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eGlobal Brand Tester Policy\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.81173001,
+          "median": 13.81173001
+        },
+        "durations": [
+          {
+            "duration": 13.81173001,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eSpent Tester Policy (coming soon)\" via card navigation",
+        "aggregatedDurations": {
+          "average": 17.111306547,
+          "median": 17.111306547
+        },
+        "durations": [
+          {
+            "duration": 17.111306547,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eTester Hygiene (Coming Soon)\" via card navigation",
+        "aggregatedDurations": {
+          "average": 16.395197374,
+          "median": 16.395197374
+        },
+        "durations": [
+          {
+            "duration": 16.395197374,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eHygiene Best Practices (coming soon)\" via card navigation",
+        "aggregatedDurations": {
+          "average": 16.505355492,
+          "median": 16.505355492
+        },
+        "durations": [
+          {
+            "duration": 16.505355492,
+            "location": "cache/cache/2.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBAE Onboarding-\u003eBAE Onboarding Week One Checklist\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.673048336,
+          "median": 13.673048336
+        },
+        "durations": [
+          {
+            "duration": 13.673048336,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBAE Onboarding-\u003eBAE Market Onboarding Guide\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.827578695,
+          "median": 13.827578695
+        },
+        "durations": [
+          {
+            "duration": 13.827578695,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eTraining Materials-\u003eSoap \u0026 Glory Brand training for Store Management and Team Members\" via card navigation",
+        "aggregatedDurations": {
+          "average": 14.337328949,
+          "median": 14.337328949
+        },
+        "durations": [
+          {
+            "duration": 14.337328949,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eTraining Materials-\u003eUpdating the Match Made Device in Store\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.478188016,
+          "median": 13.478188016
+        },
+        "durations": [
+          {
+            "duration": 13.478188016,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eTraining Materials-\u003eMatch Made Foundation Shade Chart for No7 Lipsticks and Blush PDF\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.618661467,
+          "median": 13.618661467
+        },
+        "durations": [
+          {
+            "duration": 13.618661467,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eHow to Refresh Beauty Consultant in Authenticator Maintenance\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.73464902,
+          "median": 13.73464902
+        },
+        "durations": [
+          {
+            "duration": 13.73464902,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eBeauty Consultant Orientation New Hire Experience\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.846727983,
+          "median": 13.846727983
+        },
+        "durations": [
+          {
+            "duration": 13.846727983,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eStore Manager Toolkit\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.291867395,
+          "median": 13.291867395
+        },
+        "durations": [
+          {
+            "duration": 13.291867395,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eBeauty Differentiation Store Manager Presentation\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.217841023,
+          "median": 13.217841023
+        },
+        "durations": [
+          {
+            "duration": 13.217841023,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eIn Store Observation Checklist\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.453738972,
+          "median": 13.453738972
+        },
+        "durations": [
+          {
+            "duration": 13.453738972,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eBeauty Consultant - Employee Refresh\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.375510871,
+          "median": 13.375510871
+        },
+        "durations": [
+          {
+            "duration": 13.375510871,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eBeauty Consultant Training and Engagement Check List - No Global Brands\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.341882305,
+          "median": 13.341882305
+        },
+        "durations": [
+          {
+            "duration": 13.341882305,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eBeauty Consultant Training and Engagement Check List - With Global Brands\" via card navigation",
+        "aggregatedDurations": {
+          "average": 14.141458574,
+          "median": 14.141458574
+        },
+        "durations": [
+          {
+            "duration": 14.141458574,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBC Onboarding-\u003eBeauty Consultant New Hire Onboarding\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.237472417,
+          "median": 13.237472417
+        },
+        "durations": [
+          {
+            "duration": 13.237472417,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eTravel Expenses \u0026 Hotel: Charge to Store. See Travel Planning and Expense Site\" via card navigation",
+        "aggregatedDurations": {
+          "average": 16.585696832,
+          "median": 16.585696832
+        },
+        "durations": [
+          {
+            "duration": 16.585696832,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003ePolicies-\u003eBeauty Promotional Monies Policy\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.46198524,
+          "median": 13.46198524
+        },
+        "durations": [
+          {
+            "duration": 13.46198524,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBeauty Standards-\u003eBeauty Department Expense List\" via card navigation",
+        "aggregatedDurations": {
+          "average": 13.85888308,
+          "median": 13.85888308
+        },
+        "durations": [
+          {
+            "duration": 13.85888308,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBeauty Standards-\u003eBeauty Differentiation Standards\" via card navigation",
+        "aggregatedDurations": {
+          "average": 14.014536189,
+          "median": 14.014536189
+        },
+        "durations": [
+          {
+            "duration": 14.014536189,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      },
+      {
+        "name": "user should be able to navigate to \"Training and Procedures-\u003eStore Operations \u0026 Maintenance-\u003eBeauty Differentiation Customer Care Materials-\u003eBeauty Standards-\u003eConsultation Station Planogram\" via card navigation",
+        "aggregatedDurations": {
+          "average": 14.19727114,
+          "median": 14.19727114
+        },
+        "durations": [
+          {
+            "duration": 14.19727114,
+            "location": "cache/cache/2.feature:249"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user click on LOGIN$",
+    "steps": [
+      {
+        "name": "user click on LOGIN",
+        "aggregatedDurations": {
+          "average": 75.461939005,
+          "median": 75.461939005
+        },
+        "durations": [
+          {
+            "duration": 75.461939005,
+            "location": "cache/cache/0.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters the username in the \"([^\"]*)\" field$",
+    "steps": [
+      {
+        "name": "user enters the username in the \"labsm1\" field",
+        "aggregatedDurations": {
+          "average": 6.129208163,
+          "median": 6.129208163
+        },
+        "durations": [
+          {
+            "duration": 6.129208163,
+            "location": "cache/cache/0.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^app closes relaunch the application$",
+    "steps": [
+      {
+        "name": "app closes relaunch the application",
+        "aggregatedDurations": {
+          "average": 0.000341829,
+          "median": 0.0002962
+        },
+        "durations": [
+          {
+            "duration": 0.000692397,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000544324,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000357453,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000417318,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000322207,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000284959,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000292499,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000334533,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000361596,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000305796,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000429797,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000329489,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000250092,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000303463,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000285549,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000927952,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000270621,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000263529,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000687223,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.00028041,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000243096,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000291381,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000256049,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000966061,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000300562,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000435939,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000316718,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000321181,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000236056,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000215462,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000269337,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000374482,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000274084,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000398925,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000313202,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000230035,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000236165,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000259457,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000219679,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000316481,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000210293,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000270024,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000312551,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000244803,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000266883,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000299901,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.00027423,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000416873,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000271118,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000318226,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000283092,
+            "location": "cache/cache/2.feature:5"
+          },
+          {
+            "duration": 0.000191594,
+            "location": "cache/cache/2.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Launches the Application$",
+    "steps": [
+      {
+        "name": "User Launches the Application",
+        "aggregatedDurations": {
+          "average": 19.997863874,
+          "median": 19.997863874
+        },
+        "durations": [
+          {
+            "duration": 19.997863874,
+            "location": "cache/cache/0.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "source": "^User tap on Continue button$",
+    "steps": [
+      {
+        "name": "User tap on Continue button",
+        "aggregatedDurations": {
+          "average": 12.497089922,
+          "median": 12.497089922
+        },
+        "durations": [
+          {
+            "duration": 8.332228089,
+            "location": "Homescreen.feature:11"
+          },
+          {
+            "duration": 16.661951755,
+            "location": "Homescreen.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on pret pick up$",
+    "steps": [
+      {
+        "name": "User tap on pret pick up",
+        "aggregatedDurations": {
+          "average": 6.221878754,
+          "median": 6.221878754
+        },
+        "durations": [
+          {
+            "duration": 6.221878754,
+            "location": "Homescreen.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User quit an application$",
+    "steps": [
+      {
+        "name": "User quit an application",
+        "aggregatedDurations": {
+          "average": 1.090076482,
+          "median": 1.090076482
+        },
+        "durations": [
+          {
+            "duration": 1.090076482,
+            "location": "Homescreen.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on Sign in button$",
+    "steps": [
+      {
+        "name": "User tap on Sign in button",
+        "aggregatedDurations": {
+          "average": 3.777616702,
+          "median": 3.777616702
+        },
+        "durations": [
+          {
+            "duration": 3.777616702,
+            "location": "Homescreen.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on Allow all button$",
+    "steps": [
+      {
+        "name": "User tap on Allow all button",
+        "aggregatedDurations": {
+          "average": 13.57942532,
+          "median": 13.57942532
+        },
+        "durations": [
+          {
+            "duration": 13.57942532,
+            "location": "Homescreen.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User see account screen$",
+    "steps": [
+      {
+        "name": "User see account screen",
+        "aggregatedDurations": {
+          "average": 1.412827826,
+          "median": 1.412827826
+        },
+        "durations": [
+          {
+            "duration": 1.412827826,
+            "location": "Homescreen.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is on welcome screen$",
+    "steps": [
+      {
+        "name": "User is on welcome screen",
+        "aggregatedDurations": {
+          "average": 1.866443044,
+          "median": 1.866443044
+        },
+        "durations": [
+          {
+            "duration": 1.294643009,
+            "location": "Homescreen.feature:7"
+          },
+          {
+            "duration": 2.43824308,
+            "location": "Homescreen.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on pret coffeesubs image$",
+    "steps": [
+      {
+        "name": "User tap on pret coffeesubs image",
+        "aggregatedDurations": {
+          "average": 1.591136447,
+          "median": 1.591136447
+        },
+        "durations": [
+          {
+            "duration": 1.591136447,
+            "location": "Homescreen.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter Email Address in email textfield",
+    "steps": [
+      {
+        "name": "User enter Email Address in email textfield",
+        "aggregatedDurations": {
+          "average": 13.045719748,
+          "median": 13.045719748
+        },
+        "durations": [
+          {
+            "duration": 13.045719748,
+            "location": "Homescreen.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on account button$",
+    "steps": [
+      {
+        "name": "User tap on account button",
+        "aggregatedDurations": {
+          "average": 1.556352005,
+          "median": 1.556352005
+        },
+        "durations": [
+          {
+            "duration": 1.556352005,
+            "location": "Homescreen.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Launches the Application$",
+    "steps": [
+      {
+        "name": "User Launches the Application",
+        "aggregatedDurations": {
+          "average": 19.587465666,
+          "median": 19.587465666
+        },
+        "durations": [
+          {
+            "duration": 19.587465666,
+            "location": "Homescreen.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User see enter email screen$",
+    "steps": [
+      {
+        "name": "User see enter email screen",
+        "aggregatedDurations": {
+          "average": 4.419182763,
+          "median": 4.419182763
+        },
+        "durations": [
+          {
+            "duration": 4.419182763,
+            "location": "Homescreen.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on personal details button$",
+    "steps": [
+      {
+        "name": "User tap on personal details button",
+        "aggregatedDurations": {
+          "average": 1.412775485,
+          "median": 1.412775485
+        },
+        "durations": [
+          {
+            "duration": 1.412775485,
+            "location": "Homescreen.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter Password in password textfield",
+    "steps": [
+      {
+        "name": "User enter Password in password textfield",
+        "aggregatedDurations": {
+          "average": 9.081274902,
+          "median": 9.081274902
+        },
+        "durations": [
+          {
+            "duration": 9.081274902,
+            "location": "Homescreen.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on Maybe later button$",
+    "steps": [
+      {
+        "name": "User tap on Maybe later button",
+        "aggregatedDurations": {
+          "average": 3.636308104,
+          "median": 3.636308104
+        },
+        "durations": [
+          {
+            "duration": 3.636308104,
+            "location": "Homescreen.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User see pret pick up modal$",
+    "steps": [
+      {
+        "name": "User see pret pick up modal",
+        "aggregatedDurations": {
+          "average": 1.98375869,
+          "median": 1.98375869
+        },
+        "durations": [
+          {
+            "duration": 1.98375869,
+            "location": "Homescreen.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User see home screen$",
+    "steps": [
+      {
+        "name": "User see home screen",
+        "aggregatedDurations": {
+          "average": 1.96025308,
+          "median": 1.96025308
+        },
+        "durations": [
+          {
+            "duration": 1.96025308,
+            "location": "Homescreen.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on logout button$",
+    "steps": [
+      {
+        "name": "User tap on logout button",
+        "aggregatedDurations": {
+          "average": 9.379566867,
+          "median": 9.379566867
+        },
+        "durations": [
+          {
+            "duration": 9.379566867,
+            "location": "Homescreen.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap on pret foundation$",
+    "steps": [
+      {
+        "name": "User tap on pret foundation",
+        "aggregatedDurations": {
+          "average": 4.423705873,
+          "median": 4.423705873
+        },
+        "durations": [
+          {
+            "duration": 4.423705873,
+            "location": "Homescreen.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User tap close button$",
+    "steps": [
+      {
+        "name": "User tap close button",
+        "aggregatedDurations": {
+          "average": 2.376155148,
+          "median": 2.307575723
+        },
+        "durations": [
+          {
+            "duration": 2.619977316,
+            "location": "Homescreen.feature:20"
+          },
+          {
+            "duration": 2.200912405,
+            "location": "Homescreen.feature:23"
+          },
+          {
+            "duration": 2.307575723,
+            "location": "Homescreen.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User see pret foundation screen$",
+    "steps": [
+      {
+        "name": "User see pret foundation screen",
+        "aggregatedDurations": {
+          "average": 2.30087891,
+          "median": 2.30087891
+        },
+        "durations": [
+          {
+            "duration": 2.30087891,
+            "location": "Homescreen.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User see enter password screen$",
+    "steps": [
+      {
+        "name": "User see enter password screen",
+        "aggregatedDurations": {
+          "average": 1.925405457,
+          "median": 1.925405457
+        },
+        "durations": [
+          {
+            "duration": 1.925405457,
+            "location": "Homescreen.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User see coffeesubs modal$",
+    "steps": [
+      {
+        "name": "User see coffeesubs modal",
+        "aggregatedDurations": {
+          "average": 1.702410746,
+          "median": 1.702410746
+        },
+        "durations": [
+          {
+            "duration": 1.702410746,
+            "location": "Homescreen.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]

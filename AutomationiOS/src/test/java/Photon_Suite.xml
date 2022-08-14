@@ -1,0 +1,15 @@
+<suite name="HorizonSuite"  thread-count="1"
+	verbose="1">
+
+	<!--<test name="Horizon_Application" junit="false" preserve-order="true">
+		<classes>
+			<class name="com.photon.runner.ExtentReportRunnerTablet" />
+		</classes>
+	</test>-->
+
+<test name="Photon_Application" junit="false" preserve-order="true" >
+		<classes>
+			<class name="com.photon.runner.ExtentReportRunner" />
+		</classes>
+	</test>
+</suite>
